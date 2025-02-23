@@ -1,0 +1,79 @@
+#searchsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#searchsection #searchbox{
+    width:400px;
+    height:40px;
+    border-radius:5px;
+    border:2px solid black;
+    color:green;
+    font-size: 18px;
+}
+
+#searchsection #sbutton{
+    height:38px;
+    border-radius:5px;
+    color:green;
+    font-weight: bold;
+}
+#searchsection #sbutton:hover{
+    background-color: green;
+    color:white;
+}
+#searchsection .card{
+    margin-left: 50px;
+}
+.plantcards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    max-height: 400px; 
+    overflow-y: auto;
+    padding: 50px;
+    border: 10px solid green;
+    border-radius: 8px;
+}
+.card{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height:250px;
+    border:5px solid green;
+    border-radius:18px;
+    margin:12px;
+    padding: 24px;
+    font-size :  20px;
+}
+.card div{
+    margin:8px;
+}
+.card1{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height:150px;
+    border:5px solid green;
+    border-radius:18px;
+    margin:12px;
+    padding: 24px;
+    font-size :  20px;
+}
+.card1 div{
+    margin:8px;
+}
+h1{
+    text-align: center;
+}
+i{
+    color: green;
+}
